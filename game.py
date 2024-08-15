@@ -197,6 +197,7 @@ class Game:
         exit()
 
     def run(self):
+        pygame.display.set_caption("Prize or Surprise")
         speed_thrill_beat_music.play(-1)
         while True:
             current_time = time.time()
